@@ -1,8 +1,10 @@
 # AIGateway (AI 应用中台 / LLM Control Plane)
 
-A production-oriented **AI Application Platform** that provides a unified **LLM Gateway + PromptOps + Governance** layer for building reliable, cost-effective, and observable AI features.
+An **AI Application Platform** that provides a unified control plane for prompt management, model routing, structured output, caching, async execution, security governance, and RAG ingestion/retrieval, enabling production-grade LLM applications rather than one-off demos.
 
 > Focus: **Reliability / Cost Control / Observability / Security & Compliance / Pluggable Engineering Abstractions**
+> 
+> **为上层业务提供统一的 Prompt 管理、模型路由、结构化输出、缓存幂等、异步任务、安全审计和 RAG 检索能力，让业务团队不必重复造轮子，就能快速构建生产可用的 AI 功能**
 
 ---
 
@@ -16,6 +18,8 @@ LLM features often fail in production not because “the model is weak”, but b
 - prompt injection / sensitive data leakage risk
 
 This project aims to provide a reusable “control plane” for AI applications.
+
+
 
 ---
 
@@ -86,8 +90,6 @@ This project aims to provide a reusable “control plane” for AI applications.
 
 > Prerequisites:
 - Java 17+ (recommended)
-- Maven 3.9+
-- (Optional) Redis / RabbitMQ (for later modules)
 
 ```bash
 # build & run
