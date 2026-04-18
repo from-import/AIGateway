@@ -4,7 +4,7 @@ An **AI Application Platform** that provides a unified control plane for prompt 
 
 > Focus: **Reliability / Cost Control / Observability / Security & Compliance / Pluggable Engineering Abstractions**
 > 
-> **为上层业务提供统一的 Prompt 管理、模型路由、结构化输出、缓存幂等、异步任务、安全审计和 RAG 检索能力，让业务团队不必重复造轮子，就能快速构建生产可用的 AI 功能**
+> **这个项目的目标，不是单纯封装大模型接口，而是构建一个可复用的 AI 应用基础设施层。它向上为业务场景提供统一的文本生成、分类、抽取、问答和知识检索能力，向下屏蔽不同模型供应商、向量数据库和异步执行框架的差异；同时通过 Prompt 版本化、模型路由、缓存幂等、超时重试、限流配额、审计日志与脱敏治理，使 AI 能力具备生产环境可落地的可靠性、成本可控性和安全合规性。**
 
 ---
 
